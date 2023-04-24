@@ -35,3 +35,7 @@
     margin: 2px;
     cursor: pointer;
 }
+.add-break-info li:hover{
+    background-color: white;
+    color: green;
+}

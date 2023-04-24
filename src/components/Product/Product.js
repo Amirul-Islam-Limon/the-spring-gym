@@ -1,7 +1,7 @@
 import React from 'react';
 import './Product.css'
 
-const Product = ({product}) => {
+const Product = ({product, handleAddToList}) => {
     return (
         <div className='product'>
             <div className='product-img text-center pb-4'>
@@ -10,7 +10,7 @@ const Product = ({product}) => {
             <h4>{product.name}</h4>
             <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptas neque animi incidunt consequuntur? Ullam repudiandae quam corrupti iusto dolore.</small></p>
             <p>Time required: {product.time} minutes</p>
-            <button className='btn btn-success'>Add To List</button>
+            <button onClick={()=>handleAddToList(product.time)} className='btn btn-success'>Add To List</button>
         </div>
     );
 };
