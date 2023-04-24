@@ -1,0 +1,26 @@
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position: relative;
+}
+.shop-container{
+    margin-left: 80px;
+    background-color: beige;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.shop-container img{
+    height: 200px;
+    width: 200px;
+}
+.cart-container{
+    background-color:green;
+    color: white;
+    /* position: sticky; */
+    /* top: 0px; */
+}
