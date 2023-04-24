@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className='container'>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container-fluid">
+                <div className="container">
                     <a className="navbar-brand" id='navbar-brand' href="#">The Spring Gym</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -24,7 +24,6 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link " aria-current="page" href="#">Contact Us</a>
                         </li>
-                        
                     </ul>
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>

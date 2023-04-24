@@ -21,7 +21,6 @@ const Shop = () => {
     return (
         <div className='shop'>
             <div className="shop-container">
-                {/* <h1>This is Shop Container</h1> */}
                 {
                     services.map(service=> <Product
                     product={service}

@@ -22,3 +22,21 @@
     background-color:green;
     color: white;
 }
+
+@media screen and (max-width:425px) {
+    .shop{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .shop-container{
+        display: grid;
+        grid-template-columns:1fr;
+        /* gap: 20px; */
+    }
+    .shop-container{
+        margin-left: 0px;
+    }
+    .cart-container{
+        /* width:300px; */
+    }
+}

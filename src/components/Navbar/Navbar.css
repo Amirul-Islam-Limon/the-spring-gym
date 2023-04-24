@@ -3,3 +3,10 @@
     font-weight: 700;
     color: green;
 }
+@media screen and (max-width:425px) {
+    #navbar-brand{
+        font-size:large;
+        /* font-weight: 700;
+        color: green; */
+    }
+}

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css';
-// import MyToast from '../Toast/Toast';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -64,9 +63,6 @@ const Cart = (props) => {
                     pauseOnHover
                     theme="light"
                 ></ToastContainer>
-            </div>
-            <div>
-                {/* <MyToast></MyToast> */}
             </div>
         </div>
     );
